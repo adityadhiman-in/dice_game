@@ -4,15 +4,15 @@ function gameGenerator(){
 
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
-var randomimg1 = "dice" + randomNumber1 + ".png";
+var randomimg1 = "dice" + randomNumber1 + ".jpeg";
 
-var randomsource = "images/" + randomimg1;
+var randomsource = "randomimg1;
 
 document.querySelectorAll("img")[0].setAttribute("src", randomsource);
 
 var randomNumber2 = Math.floor(Math.random() * 6) +1;
 
-var randomsource2 = "images/dice" +randomNumber2 + ".png";
+var randomsource2 = "dice" +randomNumber2 + ".jpeg";
 
 document.querySelectorAll("img")[1].setAttribute("src", randomsource2);
 
