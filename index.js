@@ -4,9 +4,7 @@ function gameGenerator(){
 
 var randomNumber1 = Math.floor(Math.random() * 6) + 1;
 
-var randomimg1 = "dice" + randomNumber1 + ".jpg";
-
-var randomsource = "randomimg1;
+var randomsource = "dice" + randomNumber1 + ".jpg";
 
 document.querySelectorAll("img")[0].setAttribute("src", randomsource);
 
