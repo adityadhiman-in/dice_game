@@ -49,9 +49,6 @@ p {
 img {
   width: 40%;
 }
-img-container{
-  display:flex;
-}
 
 footer {
   margin-top: 5%;
@@ -60,9 +57,4 @@ footer {
   font-family: 'Lobster', cursive;
 
 }
-@media screen (max-width:600px){
-  img-container{
-  display:flex;
-  flex-direction:column;
-}
-}
+
